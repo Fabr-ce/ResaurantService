@@ -11,7 +11,8 @@ const app = express();
 app.use(express.static('public'));
 
 app.get('*', (req, res) => {
-      res.sendFile(path.resolve(process.cwd(), 'public', 'index.html')); 
+      res.send("/");
+      //res.sendFile(path.resolve(process.cwd(), 'public', 'index.html')); 
 });
 
 
