@@ -8,10 +8,10 @@ const app = express();
 
 
 
+app.use(express.static('public'));
 
-
-app.get('/', (req, res) => {
-    res.send('<h1>Hello world</h1>');
+app.get('*', (req, res) => {
+      res.sendFile(path.resolve(process.cwd(), 'public', 'index.html')); 
 });
 
 
