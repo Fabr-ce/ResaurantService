@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.de68bcc7.css",
-    "main.js": "/static/js/main.1f611fa7.js",
+    "main.js": "/static/js/main.2b72db3a.js",
     "static/media/Früchtetee_kalt.PNG": "/static/media/Früchtetee_kalt.885c2e808528769cf231.PNG",
     "static/media/Frucht.PNG": "/static/media/Frucht.4698eed71706ba11fb6f.PNG",
     "static/media/Kaffee.PNG": "/static/media/Kaffee.712d064a5f138fb3fc0f.PNG",
@@ -15,10 +15,10 @@
     "static/media/Wasser_mit_Frucht.PNG": "/static/media/Wasser_mit_Frucht.52e7f2c2a0f55447111f.PNG",
     "index.html": "/index.html",
     "main.de68bcc7.css.map": "/static/css/main.de68bcc7.css.map",
-    "main.1f611fa7.js.map": "/static/js/main.1f611fa7.js.map"
+    "main.2b72db3a.js.map": "/static/js/main.2b72db3a.js.map"
   },
   "entrypoints": [
     "static/css/main.de68bcc7.css",
-    "static/js/main.1f611fa7.js"
+    "static/js/main.2b72db3a.js"
   ]
 }
