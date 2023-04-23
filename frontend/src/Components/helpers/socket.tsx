@@ -4,7 +4,7 @@ import io from 'socket.io-client';
 
 type Socket = ReturnType<typeof io>;
 
-const ENDPOINT = 'ws://localhost:5000';
+const ENDPOINT = 'ws://' + location.host;
 
 const SocketContext = createContext<null | Socket>(null);
 
