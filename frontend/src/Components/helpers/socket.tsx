@@ -2,9 +2,13 @@ import { useState, createContext, useContext, useEffect } from 'react';
 
 import io from 'socket.io-client';
 
-type Socket = ReturnType<typeof io>;
+const ENDPOINT =
+  'ws://' +
+  (process.env.NODE_ENV === 'production'
+    ? '192.168.0.122:5000'
+    : 'localhost:5000');
 
-const ENDPOINT = 'ws://' + location.host;
+type Socket = ReturnType<typeof io>;
 
 const SocketContext = createContext<null | Socket>(null);
 
