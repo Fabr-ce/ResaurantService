@@ -5,7 +5,7 @@ import io from 'socket.io-client';
 const ENDPOINT =
   'ws://' +
   (process.env.NODE_ENV === 'production'
-    ? '192.168.0.122:5000'
+    ? '192.168.60.130:5000'
     : 'localhost:5000');
 
 type Socket = ReturnType<typeof io>;
