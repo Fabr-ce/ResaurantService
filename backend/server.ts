@@ -2,17 +2,18 @@ import express from 'express';
 import cors from "cors"
 import http from "http"
 import { Server } from "socket.io"
+import path from 'path';
 
 
 const app = express();
 
-
+const PORT = process.env.PORT || 5000
 
 app.use(express.static('public'));
 
 app.get('*', (req, res) => {
-      res.send("/");
-      //res.sendFile(path.resolve(process.cwd(), 'public', 'index.html')); 
+    //res.send("/");
+    res.sendFile(path.resolve(process.cwd(), 'public', 'index.html'));
 });
 
 
@@ -25,7 +26,7 @@ const io = new Server(server, {
 });
 
 
-server.listen(5000, () => {
+server.listen(PORT, () => {
     console.log('listening on *:5000');
 });
 
