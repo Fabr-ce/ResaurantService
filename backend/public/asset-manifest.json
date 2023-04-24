@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.de68bcc7.css",
-    "main.js": "/static/js/main.723f8f8c.js",
+    "main.css": "/static/css/main.2092dca5.css",
+    "main.js": "/static/js/main.19cd3344.js",
     "static/media/Früchtetee_kalt.PNG": "/static/media/Früchtetee_kalt.885c2e808528769cf231.PNG",
     "static/media/Frucht.PNG": "/static/media/Frucht.4698eed71706ba11fb6f.PNG",
     "static/media/Kaffee.PNG": "/static/media/Kaffee.712d064a5f138fb3fc0f.PNG",
@@ -15,11 +15,11 @@
     "static/media/Wasser_mit_Frucht.PNG": "/static/media/Wasser_mit_Frucht.52e7f2c2a0f55447111f.PNG",
     "static/media/Sirup.svg": "/static/media/Sirup.b8f40a40f8ff3d7d58a1.svg",
     "index.html": "/index.html",
-    "main.de68bcc7.css.map": "/static/css/main.de68bcc7.css.map",
-    "main.723f8f8c.js.map": "/static/js/main.723f8f8c.js.map"
+    "main.2092dca5.css.map": "/static/css/main.2092dca5.css.map",
+    "main.19cd3344.js.map": "/static/js/main.19cd3344.js.map"
   },
   "entrypoints": [
-    "static/css/main.de68bcc7.css",
-    "static/js/main.723f8f8c.js"
+    "static/css/main.2092dca5.css",
+    "static/js/main.19cd3344.js"
   ]
 }

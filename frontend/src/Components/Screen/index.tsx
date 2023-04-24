@@ -41,7 +41,7 @@ export default function Screen() {
   }, [socket]);
 
   return (
-    <div className='w-full h-full flex flex-col py-5'>
+    <div className='w-full h-full flex flex-col py-5 overflow-hidden'>
       <h1 className='text-center text-5xl font-bold mb-4'>Kafi Nord</h1>
       <div className='w-full flex py-5 flex-grow'>
         <div className='w-full border-r flex flex-col'>
