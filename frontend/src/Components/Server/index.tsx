@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import { GiTable } from 'react-icons/gi';
 import { useSocket } from '../helpers/socket';
 
-export const TableCount = 5;
+export const TableCount = 6;
 
 export default function Server() {
   const socket = useSocket();

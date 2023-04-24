@@ -42,9 +42,7 @@ export default function Screen() {
 
   return (
     <div className='w-full h-full flex flex-col py-5'>
-      <h1 className='text-center text-5xl font-bold mb-4'>
-        Restaurant Städtli
-      </h1>
+      <h1 className='text-center text-5xl font-bold mb-4'>Kafi Nord</h1>
       <div className='w-full flex py-5 flex-grow'>
         <div className='w-full border-r flex flex-col'>
           <h2 className='text-center text-2xl font-bold'>Bestellung</h2>
@@ -64,7 +62,7 @@ export default function Screen() {
           </div>
         </div>
         <div className='w-full'>
-          <h2 className='text-center text-2xl font-bold'>Menu</h2>
+          <h2 className='text-center text-2xl font-bold'>Speisekarte</h2>
           <div className='p-5 grid grid-cols-2 gap-3'>
             {menu.map((item) => (
               <div className='w-full flex gap-3'>

@@ -32,7 +32,9 @@ export default function Menu() {
           <Link to='/server' className='flex items-center text-xl gap-2'>
             <IoArrowBack size='3rem' /> Zurück
           </Link>
-          <h2 className='text-4xl font-bold mb-4 text-center w-full'>Menu</h2>
+          <h2 className='text-4xl font-bold mb-4 text-center w-full'>
+            Speisekarte
+          </h2>
         </div>
 
         <div className='flex flex-wrap gap-3 mt-5'>
